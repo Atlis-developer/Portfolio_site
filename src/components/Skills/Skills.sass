@@ -1,11 +1,9 @@
-#about_me
+#skills
     width: 60%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
     color: #070707;
-    padding-top: 120px;
-    padding-bottom: 105px;
     h2
         text-align: center;
         font-size: 34px;
@@ -14,6 +12,28 @@
         font-size: 18px;
         line-height: 22px;
         text-align: center;
+    .all-skills
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        text-align: center;
+        grid-gap: 20px;
+        margin-top: 85px;
+        .skill
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: end;
+            .name
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #828282;
+                margin-top: 15px;
+            img
+                width: 90px;
+            span
+                font-size: 26px;
+
 
 
     
