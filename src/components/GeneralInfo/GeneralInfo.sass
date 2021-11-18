@@ -2,38 +2,39 @@
     margin: 0px auto;
     width: 60%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     .info
-        width: 100%;
-        height: 138px;
-        display: grid;
-        grid-template-columns: 3fr 9fr;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .name
-            display: flex;
-            justify-content: start;
-            align-items: flex-end;
-            color: #070707;
+            text-align: center;
+            color: #b5a778;
             font-size: 48px;
             font-weight: bold;
             line-height: 59px;
+            margin-top: 15px;
         .profession
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            color: #070707;
+            text-align: center;
+            color: #b5a778;
+            padding-top: 50px;
+            font-style: italic;
             font-size: 18px;
-            padding-bottom: 10px;
             line-height: 22px;
     .image
-        width: 100%;
-        height: 387px;
-        background-color: #070707;
-        margin-top: 50px;
-        margin-bottom: 105px;
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        img
+            width: 60%;
+            display: block;
+            margin: 0 auto;
     .about_me
         display: flex;
         flex-direction: column;
-        color: #070707;
+        color: #b5a778;
         h2
             text-align: center;
             font-size: 34px;

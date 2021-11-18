@@ -4,11 +4,11 @@ import './Header.sass';
 export const Header = () => {
     return (
       <div className="header">
-        <a href="#general">Home</a>
-        <a href="#about_me">About me</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contacts">Contacts</a>
+        <a href="#general">Главная</a>
+        <a href="#about_me">О себе</a>
+        <a href="#skills">Навыки</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contacts">Контакты</a>
       </div>
     );
   }

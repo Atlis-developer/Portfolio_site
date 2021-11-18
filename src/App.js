@@ -11,16 +11,16 @@ import { Contacts } from './components/Contacts/Contacts';
 const App = () => {
   return (
     <div className="App">
-      <Header/>
-      <GeneralInfo/>
       <div className='about'>
-        <AboutMe/>
+        <Header />
+        <GeneralInfo />
+        <AboutMe />
       </div>
-      <Skills/>
       <div className='portfolio'>
-        <Portfolio/>
+        <Skills />
+        <Portfolio />
+        <Contacts />
       </div>
-      <Contacts/>
     </div>
   );
 }

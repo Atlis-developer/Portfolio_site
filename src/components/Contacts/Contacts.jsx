@@ -13,23 +13,21 @@ export const Contacts = () => {
   return (
     <div id="contacts">
       <h3>
-        Contacts
+        Контакты
       </h3>
       <div className='all_contacts'>
         <div className='contact' onClick={()=>setPhone(!phone)}>
-          <img src={Phone} />
-          {phone && <p>
-            +38-050-667-98-87
-          </p>}
+          <img src={Phone} alt='Phone'/>
+          {phone && <a className='number' href='tel:+380506679887'>(050) 667 98 87</a>}
         </div>
         <div className='contact' onClick={()=>setTelegram(!telegram)}>
-          <img src={Telegram} />
+          <img src={Telegram} alt='Telegram'/>
           {telegram && <p>
             @At1is
           </p>}
         </div>
         <div className='contact' onClick={()=>setGmail(!gmail)}>
-          <img src={Gmail} />
+          <img src={Gmail} alt='Gmail'/>
           {gmail && <p>
             utts.kyiv@gmail.com
           </p>}
