@@ -41,8 +41,15 @@
                     color: gold;
                     font-family: none;
             
+@media (max-width: 830px)
+    #skills
+        width: 100%
+        .all-skills
+            grid-template-columns: repeat(3, 4fr);
 
-
-
+@media (max-width: 550px)
+    #skills
+        .all-skills
+            grid-template-columns: repeat(2, 6fr);
     
 
