@@ -7,7 +7,7 @@ export const GeneralInfo = () => {
     <div id="general">
       <div className='info'>
         <div className='name'>
-          Владимир <br/> Климин
+          Климин <br/> Владимир
         </div>
         <div className='profession'>
         Junior React Frontend Developer <br/>
