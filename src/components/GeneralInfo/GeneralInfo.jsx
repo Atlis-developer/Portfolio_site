@@ -11,7 +11,7 @@ export const GeneralInfo = () => {
         </div>
         <div className='profession'>
         Junior React Frontend Developer <br/>
-        30 лет, город Киев
+        30 лет, Киев
         </div>
       </div>
       <div className='image'>
